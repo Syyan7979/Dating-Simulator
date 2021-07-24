@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f9819589bff54adfabb65433b4ae337, type: 3}
+  m_Name: A1
+  m_EditorClassIdentifier: 
+  speaker: Kurt
+  DialogueMessage:
+  - Festers. Everywhere. Armed mostly with gas-powered rock flingers.
+  - At least 10 of them guarding the hangar door. Typical.
+  - Could try punching your way through. Or sneaking the long way to the emergency
+    exit.
+  - What should you do?
+  choices:
+  - Take them head on - rush the 10 guards.
+  - Sneak your way to the emergency exit.
+  states:
+  - {fileID: 11400000, guid: 26b30e010f95a4da9b03f41a866a6b88, type: 2}
+  - {fileID: 11400000, guid: 071c799f662344b79a1c40ae00252708, type: 2}
